@@ -1,0 +1,22 @@
+# estructura-de-datos-manejo-de-memoria
+#incluir <iostream>
+
+usando el espacio de nombres estándar;
+
+constante int Núm = 8;
+
+int principal()
+{
+    int números[Núm];
+    entero total = 0;
+    
+    para (int i = 0; i < Num; i++)
+    {
+        cout << "Por favor introduzca un número: ";
+        cin >> números[i];
+        total += números[i];
+    }
+    
+    cout << "El total de números es " << total << endl;
+    devolver 0;
+}
